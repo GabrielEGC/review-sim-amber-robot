@@ -11,7 +11,7 @@ In the paper, they collect data from angles of people walking, make some affine 
 <img src="graphics/track.png">
 </p>
 
-But here comes the difference from classic tracking. Let *y~a~(t)* ~a~ be the vector containing the variables of the system, and *y~d~(t)* the desired vector function obtained by regression on *y~H~(t)* (only last 4 trajectories). The control law doesn't exactly drive the error between *y~a~(t)* and *y~d~(t)* obtained by regression, but the law control wants to drive the following error function to *0*.
+But here comes the difference from classic tracking. Let *y~a~(t)* ~a~ *E*~0~=*mc*^2^ *E*_0~=*mc*^2^  *E*_0_=*mc*^2^ be the vector containing the variables of the system, and *y~d~(t)* the desired vector function obtained by regression on *y~H~(t)* (only last 4 trajectories). The control law doesn't exactly drive the error between *y~a~(t)* and *y~d~(t)* obtained by regression, but the law control wants to drive the following error function to *0*.
 
 <p align="center">
 <img src="graphics/Output.png">
