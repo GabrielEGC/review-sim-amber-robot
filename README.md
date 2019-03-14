@@ -2,23 +2,19 @@
 A review and simulation of "First Steps Toward Underactuated Human-Inspired Bipedal Robotic Walking", paper from AMBER Lab
 
 <p align="center">
+<img src="graphics/track.png">
+</p>
+
+<p align="center">
 <img src="graphics/Output.png">
 </p>
 
 <p align="center">
-<img src="graphics/Error_y.png">
+<img src="graphics/tau.png">
 </p>
 
 <p align="center">
-<img src="graphics/Error_y.png">
-</p>
-
-<p align="center">
-<img src="graphics/Error_y.png">
-</p>
-
-<p align="center">
-<img src="graphics/Error_y.png">
+<img src="graphics/optimiz.png">
 </p>
 
 
@@ -35,3 +31,7 @@ A review and simulation of "First Steps Toward Underactuated Human-Inspired Bipe
 <img src="graphics/Error_y.png">
 </p>
 
+
+<p align="center">
+<img src="graphics/tauus.png">
+</p>
