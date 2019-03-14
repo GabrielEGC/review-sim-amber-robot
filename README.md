@@ -3,6 +3,8 @@ A review and simulation of "First Steps Toward Underactuated Human-Inspired Bipe
 
 This repository contains the a review and a simulation of the paper “First Steps Toward Underactuated Human-Inspired Bipedal Robotic Walking” form Amber LAB, https://ieeexplore.ieee.org/document/6225360.
 
+Main code is in folder "Model", aditional but required functions are in "Functions". Read pdf for more details.
+
 AMBER robot has 5 links, 2 legs, 2 shanks and the torso, and it's actuated at boths hips and both knees. It's an underactuated robot.
 
 In the paper, they collect data from angles of people walking, make some affine transformations and apply optimization in order to make regression to the new variables. They have the form:
