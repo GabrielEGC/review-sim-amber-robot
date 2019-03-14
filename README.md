@@ -48,8 +48,12 @@ From this, we can compute the approximate value of *tau*:
 <img src="graphics/tauus.png">
 </p>
 
-Ideally we have *tau=t*, but this not *\tau* \tau $tau$ $$tau$$ $$\tau$$ *$$\tau$$* $$\tau$$ *$$tau$$*
+Ideally we will have 1.8743 be just 1, but we have a great difference mainly because we estimate the values of lengths, masses and inertias through Zatsiorsky-Leyva parameters (Paper doesn't provide exact values used in optimization).
 
 <p align="center">
-<img src="graphics/Error_y.gif">
+<img src="graphics/Error_y.png">
 </p>
+
+Ideally, with the correct physical parameters of the robot for which the optimization was performed, we will have a permanent *y=0*, 0 error. This is because the optimization forces that if the system is in the Zero Dynamics surface, it will be mapped again to the Zero Dynamics ater a collision, implying that *y=0* at the beggining. We are no using the exact values, so we don't have permanente *y=0*, but it is still a good performance.
+
+This is really amazing given the fact that, if you want to track directly the angles 𝑦~𝑑~(𝑡), you will only obtain a falling robot, so tracking the "human-inspired output" is useful in this case.
