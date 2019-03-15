@@ -56,6 +56,6 @@ Ideally we will have 1.8743 be just 1, but we have a great difference mainly bec
 <img src="graphics/Error_y.png">
 </p>
 
-Ideally, with the correct physical parameters of the robot for which the optimization was performed, we will have a permanent *y=0*, 0 error. This is because the optimization forces that if the system is in the Zero Dynamics surface, it will be mapped again to the Zero Dynamics ater a collision, implying that *y=0* at the beggining. We are no using the exact values, so we don't have permanente *y=0*, but it is still a good performance.
+Ideally, with the correct physical parameters of the robot for which the optimization was performed, we will have a permanent *y=0*, 0 error. This is because the optimization forces that if the system is in the Zero Dynamics surface, it will be mapped again to the Zero Dynamics after a collision, implying that *y=0* at the beggining. We are no using the exact values, so we don't have permanente *y=0*, but it is still a good performance.
 
 This is really amazing given the fact that, if you want to track directly the angles *𝑦<sub>d</sub>(t)*, you will only obtain a falling robot, so tracking the "human-inspired output" is useful in this case.
